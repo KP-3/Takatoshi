@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -147,6 +147,7 @@ public class blockmove : MonoBehaviour {
                     if (i == 0)
                     {
                         y1 = -2 + where * 2;
+                        Block.blocksize[where]++;
                         break;
                     }
                     else
@@ -210,6 +211,7 @@ public class blockmove : MonoBehaviour {
                     if (i == 0)
                     {
                         y1 = -2 + where * 2;
+                        Block.blocksize[where]++;
                         break;
                     }
                     else
