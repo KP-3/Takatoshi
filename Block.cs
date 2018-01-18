@@ -110,7 +110,7 @@ public class Block : MonoBehaviour {
     }
     void move()
     {
-        // FileReadTest.txtファイルを読み込む
+        // txtファイルを読み込む
         FileInfo fi = new FileInfo(Application.dataPath + "/../" + "move.txt");
         try
         {
@@ -146,7 +146,7 @@ public class Block : MonoBehaviour {
     }
     void ReadFile()
     {
-        // FileReadTest.txtファイルを読み込む
+        //ファイルを読み込む
         FileInfo fi = new FileInfo(Application.dataPath + "/../" + "blockstate.txt");
         try
         {
